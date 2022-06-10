@@ -32,7 +32,7 @@
 h1{
 	font-size: 34px;
 }
-
+/*-----------------------------DECORACION---------- --------*/
 .square{
 	height: 12px;
 	width: 12px;
@@ -41,6 +41,7 @@ h1{
 	margin: 15px 0;
 }
 
+/*-----------------------------------BOTONES  ----------------------------------*/
 .common-btn{
 	padding: 18px 40px;
 	background: transparent;
@@ -62,6 +63,8 @@ p{
 	margin-bottom: 60px;
 }
 
+
+/*-----------------------------LINEAS DECORATIVAS ----------------------*/
 .line-1{
 	width: 15px;
 	height: 15px;
@@ -87,6 +90,8 @@ p{
 	line-height: 8px;
 }
 
+
+/*-----------------------------MENU LATERAL---------------------------*/
 #sideNav{
 	width: 250px;
 	height: 100vh;
@@ -118,43 +123,43 @@ nav ul li a{
 	cursor: pointer;
 }
 
-/*about  --------*/
+/*-----------------------------CAUSAS Y CONSECUENCIAS DEL CAMBIO CLIMÁTICO --------*/
 
-#about, #offer{
+#causas, #evitar{
 	padding: 100px 0;
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
 }
 
-.about-left-col{
+.causas-left-col{
 	flex-basis: 50%;
 }
 
-.about-left-col img{
+.causas-left-col img{
 	width: 100%;
 }
 
-.about-right-col{
+.causas-right-col{
 	flex-basis: 50%;
 	text-align: right;
 }
 
-.about-text{
+.causas-text{
 	max-width: 500px;
 	margin-right: 100px;
 	display: inline-block;
 	word-break: break-word;
 }
 
-.about-text h2{
+.causas-text h2{
 	margin: 50px 0 10px;
 	font-size: 20px;
 	font-style: italic;
 
 }
 
-.about-text h3{
+.causas-text h3{
 	
 	font-size: 20px;
 	font-style: italic;
@@ -162,14 +167,14 @@ nav ul li a{
 
 }
 
-/*------ features  --------*/
+/*----------------------- OTRAS CAUSAS DE CAMBIO CLIMÁTICO  -------------------------*/
 
-#features{
+#mcausas{
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
-.feature-row{
+.m2causas-row{
 	width: 80%;
 	margin: auto;
 	display: flex;
@@ -178,107 +183,107 @@ nav ul li a{
 	flex-wrap: wrap;
 }
 
-.feature-col{
+.m2causas-col{
 	flex-basis: 25%;
 	text-align: center;
 }
 
-.feature-col img {
+.m2causas-col img {
 	width: 200px;
 }
 
-.feature-col h4{
+.m2causas-col h4{
 	margin-bottom: 15px;
 	font-size: 20px;
 	font-weight: 400;
 }
 
-.feature-btn{
+.m2causas-btn{
 	margin: 80px auto 0;
 	display: flex;
 	align-items: flex-end;
 	justify-content: center;
 }
 
-.feature-btn .line{
+.m2causas-btn .line{
 	text-align: right;
 	display: inline-block;
 	margin-right: 25px;
 }
 
-.feature-text{	
+.m2causas-text{	
 	margin-right: 100px;
 	word-break: break-word;
 }
 
-.feature-text h2{
+.m2causas-text h2{
 	margin: 50px 0 10px;
 	font-size: 20px;
 	font-style: italic;
 	text-align: center;
 }
 
-/*        courses          */
+/*-----------------------------  CONSECUENCIAS DEL CAMBIO CLIMÁTICO   -----------------------------*/
 
 
-#courses{
+#consecuencias{
 	padding: 100px 0;
 
 }
 
-.course-row{
+.consecuencia-row{
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
 }
 
-.course-right-col{
+.consecuencia-right-col{
 	flex-basis: 50%;
 }
 
-.course-right-col img {
+.consecuencia-right-col img {
 	width: 100%;
 }
 
-.course-left-col{
+.consecuencia-left-col{
 	flex-basis: 50%;
 }
 
 
-.course-text{
+.consecuencia-text{
 	max-width: 350px;
 	word-break: break-word;
 }
 
-.course-text button{
+.consecuencia-text button{
 	margin: 30px 0;
 
 }
 
 
-/*--- offer ---*/
+/*--- evitar ---*/
 
-#offer button{
+#evitar button{
 	margin: 30px 0;
 }
 
 
-/* ----- contact-------*/
+/* --------------------------------------- CÓMO EVITAR EL CAMBIO CLIMÁTICO-----------------------------------*/
 
 
 
-.contact-row{
+.contacto-row{
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
 }
 
 
-.contact-left-col, .contact-right-col{
+.contacto-left-col, .contacto-right-col{
 	flex-basis: 50%;
 }
 
-.contact-right-col img{
+.contacto-right-col img{
 	width: 100%;
 }
 
@@ -286,7 +291,7 @@ nav ul li a{
 
 
 
-
+/* --------------------------------------- FORMULARIO CONTACTO-----------------------------------*/
 
 form{
 	max-width: 350px;
@@ -317,7 +322,7 @@ form input, textarea{
 
 
 
-/* ----- footer-------*/
+/* ---------------------------------- FOOTER-----------------------------------*/
 
 #footer{
 	padding: 50px 0 30px;
@@ -389,7 +394,7 @@ hr{
 }
 
 
-/* ----- social icons-------*/
+/* ------------------------------ SOCIAL MEDIA LOGOS-----------------------*/
 
 .social-icons{
 	width: 50px;
@@ -408,6 +413,12 @@ hr{
 	cursor: pointer;
 }
 
+
+
+/* ------------------------------ MEDIA QUERY 
+   ESTOS QUERY HACEN QUE LA PAGINA SEA RESPONSIVA DEPENDIENDO EL DISPOSITIVO 
+   CUANDO LA PANTALLA BAJA A UN ANCHO DE 770 PIXELES ENTRAN ESTOS ESTILOS EN LUGAR DE LOS PREVIOS HACIENDO 
+   QUE EL DISEÑO SE ADAPTE PARA EL TAMAÑO DE UN DISPOSITIVO MAS PEQUEÑO -----------------------*/
 
 
 @media only screen and (max-width:  770px){
@@ -447,42 +458,42 @@ hr{
 		margin: 15px auto;
 	}
 
-	.about-left-col, .about-right-col{
+	.causas-left-col, .causas-right-col{
 		flex-basis: 100%;
 	}
 
-	.about-text{
+	.causas-text{
 		margin: 50px 50px 0;
 		display: inline-block;
 		word-break: break-word;
 	}
 
-	.about-text h2{
+	.causas-text h2{
 		font-size: 18px;
 	}
 	
-	.feature-text{	
+	.m2causas-text{	
 		margin: 50px 50px 0;
 		word-break: break-word;
 	}
 
-	.feature-col{
+	.m2causas-col{
 		flex-basis: 100%;
 		margin-bottom: 20px;
 	}
 
-	.course-left-col{
+	.consecuencia-left-col{
 		flex-basis: 100%;
 	}
-	.course-right-col{
+	.consecuencia-right-col{
 		flex-basis: 100%;
 		margin-top: 70px;
 	}
-	.contact-left-col, .contact-right-col{
+	.contacto-left-col, .contacto-right-col{
 		flex-basis: 100%;
 	}
 
-	.contact-right-col{
+	.contacto-right-col{
 		margin-top: 50px;
 	}
 
