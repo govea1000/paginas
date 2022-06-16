@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CÓMO EVITAR EL CAMBIO CLIMÁTICO</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	
+</head>
+<body>	
+
+		<!-----MENU LATERAL CON ANCLAS PARA RECORRER LA PAGINA --------->
+		<nav id="sideNav">
+			<ul>
+				<li><a href="./index.html">Inicio</a></li>
+				<li><a href="./causa-principal.html">Causa principal</a></li>
+				<li><a href="./mas-causas.html">Más causas</a></li>
+				<li><a href="./consecuencias.html">Consecuencias</a></li>
+				<li><a href="./evitar.html">Prevención</a></li>
+				<li><a href="./contacto.html">Contáctanos</a></li>
+			</ul>
+		</nav>
+		<img src="images/menu.png" id="menuBtn">	
+
+
+		
+<!--------------------------------- CÓMO EVITAR EL CAMBIO CLIMÁTICO ------------------------------------>
+
+
+<section id="evitar">
+			<div class="causas-left-col">
+				<img src="images/evitar.png">
+			</div>
+			<div class="causas-right-col">
+				<div class="causas-text">
+					<h1>¿CÓMO EVITAR EL CAMBIO CLIMÁTICO?</h1>
+						<span class="square"></span>
+					<h2>MITIGAR LOS EFECTOS</h2>
+					<p>La mitigación consiste en poner en marcha acciones para reducir y limitar las emisiones de gases efecto invernadero con el objetivo de evitar que la temperatura global del planeta siga aumentando. Estas acciones consisten en una mayor inversión en energías renovables, una transición hacia una economía baja en carbono, promover la eficiencia energética, la electrificación de procesos industriales o la implementación de medios de transportes eficientes (transporte público eléctrico, bicicleta, coches compartidos…).</p><br>
+					<h2>ADAPTARNOS AL ENTORNO</h2>
+					<p>Por su parte, la adaptación está enfocada a acciones para reducir la vulnerabilidad ante los efectos del cambio climático, como por ejemplo mejorar infraestructuras e instalaciones más seguras y resilientes, la reforestación y restauración paisajística, el tratamiento y depuración del agua, el cultivo flexible y variado para estar preparado ante catástrofes naturales, ser capaces de prever estos desastres o invertir en investigación y desarrollo sobre el comportamiento de la temperatura o la posible aparición de fenómenos atmosféricos.</p><br>
+					<h2>ACUERDOS INTERNACIONALES</h2>
+					<p>Para combatir el cambio climático es indispensable la investigación y la colaboración internacional. El IPCC (Grupo Intergubernamental de Expertos sobre el Cambio Climático) se dedica a evaluar los impactos del ser humano en el clima y propone posibles soluciones, mientras que acuerdos y tratados globales como las Conferencias de las Partes (COPs) y el Protocolo de Montreal establecen pactos conjuntos y buscan un marco común de actuación contra el cambio climático.</p><br>
+					
+					
+						<!-----LINEAS DECORATIVAS--------->
+						<div class="line">
+							<span class="line-1"></span><br>
+							<span class="line-2"></span><br>
+							<span class="line-3"></span>
+						</div>
+
+				
+				</div>
+			</div>
+		</section>
+
+
+
+
+<!---------------------------------- FOOTER ---------------------------------------------->
+
+<section id="footer">
+	<div class="container footer-row">
+		<hr>
+
+		<div class="footer-left-col">
+			<div class="footer-links">
+				<div class="link-title">
+					<h4>Jennifer Nahomi Torres Quiroz</h4>
+					<small>Jnahomitorres2612@gmail.com</small><br>
+					
+				</div>
+
+				<div class="link-title">
+					<h4>Keisha Lorena Hernández Morin</h4>
+					<small>Keishahdz18@gmail.com</small><br>
+					
+				</div>
+
+				<div class="link-title">
+					<h4>Carlos Javier Arroyo Perez</h4>
+					<small>Arroyoperezcarlosjavier67@gmail.com</small><br>
+					
+				</div>
+
+				<div class="link-title">
+					<h4>Jesús Ismael Hidalgo Delgado</h4>
+					<small>Ismaelrlk18@gmail.com</small><br>
+					
+				</div>
+			</div>
+		</div>
+		<div class="footer-right-col">
+			<div class="footer-info">
+				<div class="copyright-text">
+					
+				</div>
+				<div class="footer-logo">
+					<a href="#header"><img src="images/logo.png"></a>	
+					<small>copyright 2022</small>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!------------------------------SOCIAL MEDIA LOGOS ---------------------------->
+
+
+
+<div class="social-icons">
+	<img src="images/facebook.png" onclick="javascript:window.open('https://www.facebook.com/nahomi.torres.925', '_blank');">
+	<img src="images/instagram.png">
+	<img src="images/twitter.png">
+</div>
+
+
+
+<!----------------------------------------- SCRIPTS ------------------------------------>
+<!------------ ESTE SCRIPT ES PARA QUE EL MENU LATERAL SE OCULTE Y SE DESPLIEGUE CUANDO SE PRESIONA EL BOTON SUPERIOR DERECHO ------------------------------------>
+		<script>
+			var menuBtn = document. getElementById("menuBtn");
+			var sideNav = document. getElementById("sideNav");
+
+			sideNav.style.right = "-250px";
+			menuBtn.onclick = function(){
+				if(sideNav.style.right == "-250px"){
+					sideNav.style.right = "0";
+				}
+				else{
+					sideNav.style.right = "-250px";
+				}
+			}
+
+			
+		
+
+
+		</script>
+
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>OTRAS CAUSAS DE CAMBIO CLIMÁTICO</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	
+</head>
+<body>
+		
+		<!-----MENU LATERAL CON ANCLAS PARA RECORRER LA PAGINA --------->
+		<nav id="sideNav">
+			<ul>
+				<li><a href="./index.html">Inicio</a></li>
+				<li><a href="./causa-principal.html">Causa principal</a></li>
+				<li><a href="./mas-causas.html">Más causas</a></li>
+				<li><a href="./consecuencias.html">Consecuencias</a></li>
+				<li><a href="./evitar.html">Prevención</a></li>
+				<li><a href="./contacto.html">Contáctanos</a></li>
+			</ul>
+		</nav>
+		<img src="images/menu.png" id="menuBtn">	
+
+
+
+<!----------------------- OTRAS CAUSAS DE CAMBIO CLIMÁTICO --------------------------------->
+
+
+<section id="mcausas">
+	<div class="m2causas-text">
+					<h2>OTRAS CAUSAS DE CAMBIO CLIMÁTICO</h2>
+					<br>
+	<div class="m2causas-row">
+		<div class="m2causas-col">
+			<img src="images/pic-1.png">
+			<h4>AUMENTO EXPONENCIAL DE LA POBLACIÓN</h4>
+			<p>El número de habitantes del planeta crece exponencialmente. Hoy somos más de 7.700 millones de personas y continuaremos creciendo hasta 2050 al menos 2.000 millones más. Una población cada vez más numerosa necesita cada vez más recursos, lo que acelera el aumento de la emisión de gases de efecto invernadero en todos los procesos de producción.</p>
+		</div>
+		<div class="m2causas-col">
+			<img src="images/pic-2.png">
+			<h4>DESTRUCCIÓN DE ECOSISTEMAS TERRESTRES Y DEFORESTACIÓN</h4>
+			<p>Los bosques y selvas tropicales desaparecen a velocidad vertiginosa. En los últimos 10 años, se han destruido nada menos que 13 millones de hectáreas. Los bosques son sumideros naturales de carbono que mediante la fotosíntesis absorben CO₂ y devuelven oxígeno a la atmósfera. </p>
+		</div>
+		<div class="m2causas-col">
+			<img src="images/pic-3.png">
+			<h4>DESTRUCCIÓN DE ECOSISTEMAS MARINOS</h4>
+			<p>Los océanos también son sumideros de carbono, absorbiendo hasta el 50 % del CO₂ generado. Además de su destrucción, el problema es que cuando alcanzan su límite, el océano se acidifica y se producen muertes y enfermedades de la flora y fauna marina.</p>
+		</div>
+	</div>
+	<div class="m2causas-btn">
+						<!-----LINEAS DECORATIVAS--------->
+						<div class="line">
+							<span class="line-1"></span><br>
+							<span class="line-2"></span><br>
+							<span class="line-3"></span>
+						</div>
+		<button class="common-btn" onclick="javascript:window.open('https://climate.nasa.gov/causas/', '_blank');">MÁS CAUSAS</button>
+	</div>
+</div>
+</section>
+
+
+
+<!---------------------------------- FOOTER ---------------------------------------------->
+
+<section id="footer">
+	<div class="container footer-row">
+		<hr>
+
+		<div class="footer-left-col">
+			<div class="footer-links">
+				<div class="link-title">
+					<h4>Jennifer Nahomi Torres Quiroz</h4>
+					<small>Jnahomitorres2612@gmail.com</small><br>
+					
+				</div>
+
+				<div class="link-title">
+					<h4>Keisha Lorena Hernández Morin</h4>
+					<small>Keishahdz18@gmail.com</small><br>
+					
+				</div>
+
+				<div class="link-title">
+					<h4>Carlos Javier Arroyo Perez</h4>
+					<small>Arroyoperezcarlosjavier67@gmail.com</small><br>
+					
+				</div>
+
+				<div class="link-title">
+					<h4>Jesús Ismael Hidalgo Delgado</h4>
+					<small>Ismaelrlk18@gmail.com</small><br>
+					
+				</div>
+			</div>
+		</div>
+		<div class="footer-right-col">
+			<div class="footer-info">
+				<div class="copyright-text">
+					
+				</div>
+				<div class="footer-logo">
+					<a href="#header"><img src="images/logo.png"></a>	
+					<small>copyright 2022</small>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!------------------------------SOCIAL MEDIA LOGOS ---------------------------->
+
+
+
+<div class="social-icons">
+	<img src="images/facebook.png" onclick="javascript:window.open('https://www.facebook.com/nahomi.torres.925', '_blank');">
+	<img src="images/instagram.png">
+	<img src="images/twitter.png">
+</div>
+
+
+
+<!----------------------------------------- SCRIPTS ------------------------------------>
+<!------------ ESTE SCRIPT ES PARA QUE EL MENU LATERAL SE OCULTE Y SE DESPLIEGUE CUANDO SE PRESIONA EL BOTON SUPERIOR DERECHO ------------------------------------>
+		<script>
+			var menuBtn = document. getElementById("menuBtn");
+			var sideNav = document. getElementById("sideNav");
+
+			sideNav.style.right = "-250px";
+			menuBtn.onclick = function(){
+				if(sideNav.style.right == "-250px"){
+					sideNav.style.right = "0";
+				}
+				else{
+					sideNav.style.right = "-250px";
+				}
+			}
+
+			
+		
+
+
+		</script>
+
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CONSECUENCIAS DEL CAMBIO CLIMÁTICO</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	
+</head>
+<body>
+
+		<!-----MENU LATERAL CON ANCLAS PARA RECORRER LA PAGINA --------->
+		<nav id="sideNav">
+			<ul>
+				<li><a href="./index.html">Inicio</a></li>
+				<li><a href="./causa-principal.html">Causa principal</a></li>
+				<li><a href="./mas-causas.html">Más causas</a></li>
+				<li><a href="./consecuencias.html">Consecuencias</a></li>
+				<li><a href="./evitar.html">Prevención</a></li>
+				<li><a href="./contacto.html">Contáctanos</a></li>
+			</ul>
+		</nav>
+		<img src="images/menu.png" id="menuBtn">	
+
+
+		
+<!------------------------- CONSECUENCIAS DEL CAMBIO CLIMÁTICO ------------------------------>
+
+<section id="consecuencias">
+		<div class="container consecuencia-row">
+			<div class="consecuencia-left-col">
+				<div class="consecuencia-text">
+					<h1>CONSECUENCIAS DEL CAMBIO CLIMÁTICO</h1>
+					<span class="square"></span>
+					<p>¿Cómo nos afecta el cambio climático? Este aumento global de la temperatura trae consecuencias desastrosas que ponen en peligro la supervivencia de la flora y la fauna de la Tierra, incluido el ser humano. Entre los impactos del cambio climático destacan, el derretimiento de la masa de hielo en los polos, que a su vez provoca el aumento del nivel del mar, lo que produce inundaciones y amenaza los litorales costeros –incluso pequeños estados insulares están en riesgo de desaparición.<br>
+
+					El cambio climático también aumenta la aparición de fenómenos meteorológicos más violentos, sequías, incendios, la muerte de especies animales y vegetales, los desbordamientos de ríos y lagos, la aparición de refugiados climáticos y la destrucción de los medios de subsistencia y de los recursos económicos, especialmente en países en desarrollo.</p>
+					<!-----BOTON QUE ABRE UN LINK--------->
+					<button class="common-btn" onclick="javascript:window.open('https://climate.nasa.gov/efectos/', '_blank');">MÁS CONSECUENCIAS</button>
+					<!-----LINEAS DECORATIVAS--------->
+					<div class="line">
+							<span class="line-1"></span><br>
+							<span class="line-2"></span><br>
+							<span class="line-3"></span>
+						</div>
+				</div>
+			</div>
+			<div class="consecuencia-right-col">
+				<img src="images/conse.png">
+			</div>
+		</div>
+
+
+
+</section>
+
+
+<!---------------------------------- FOOTER ---------------------------------------------->
+
+<section id="footer">
+	<div class="container footer-row">
+		<hr>
+
+		<div class="footer-left-col">
+			<div class="footer-links">
+				<div class="link-title">
+					<h4>Jennifer Nahomi Torres Quiroz</h4>
+					<small>Jnahomitorres2612@gmail.com</small><br>
+					
+				</div>
+
+				<div class="link-title">
+					<h4>Keisha Lorena Hernández Morin</h4>
+					<small>Keishahdz18@gmail.com</small><br>
+					
+				</div>
+
+				<div class="link-title">
+					<h4>Carlos Javier Arroyo Perez</h4>
+					<small>Arroyoperezcarlosjavier67@gmail.com</small><br>
+					
+				</div>
+
+				<div class="link-title">
+					<h4>Jesús Ismael Hidalgo Delgado</h4>
+					<small>Ismaelrlk18@gmail.com</small><br>
+					
+				</div>
+			</div>
+		</div>
+		<div class="footer-right-col">
+			<div class="footer-info">
+				<div class="copyright-text">
+					
+				</div>
+				<div class="footer-logo">
+					<a href="#header"><img src="images/logo.png"></a>	
+					<small>copyright 2022</small>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!------------------------------SOCIAL MEDIA LOGOS ---------------------------->
+
+
+
+<div class="social-icons">
+	<img src="images/facebook.png" onclick="javascript:window.open('https://www.facebook.com/nahomi.torres.925', '_blank');">
+	<img src="images/instagram.png">
+	<img src="images/twitter.png">
+</div>
+
+
+
+<!----------------------------------------- SCRIPTS ------------------------------------>
+<!------------ ESTE SCRIPT ES PARA QUE EL MENU LATERAL SE OCULTE Y SE DESPLIEGUE CUANDO SE PRESIONA EL BOTON SUPERIOR DERECHO ------------------------------------>
+		<script>
+			var menuBtn = document. getElementById("menuBtn");
+			var sideNav = document. getElementById("sideNav");
+
+			sideNav.style.right = "-250px";
+			menuBtn.onclick = function(){
+				if(sideNav.style.right == "-250px"){
+					sideNav.style.right = "0";
+				}
+				else{
+					sideNav.style.right = "-250px";
+				}
+			}
+
+			
+		
+
+
+		</script>
+
+</body>
+</html>
